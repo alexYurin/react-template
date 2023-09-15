@@ -9,3 +9,8 @@ Base app template for quick start with React and Typescript
 - Ant Design 5
 - Vite 4
 - Yarn 3
+
+## Install
+
+`yarn set version latest`
+`yarn`
