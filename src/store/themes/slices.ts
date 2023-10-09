@@ -1,10 +1,5 @@
-import { create, StateCreator } from 'zustand'
-import { ThemeEnum } from './types'
-
-interface ThemeSlice {
-  themeName: ThemeEnum
-  setTheme: (themeName: ThemeEnum) => void
-}
+import { StateCreator } from 'zustand'
+import { ThemeSlice } from './types'
 
 const DEFAULT_THEME = import.meta.env.VITE_THEME_DEFAULT
 
